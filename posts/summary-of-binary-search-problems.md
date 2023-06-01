@@ -36,7 +36,8 @@ while (l < r) {
     else l = mid + 1;
 }
 ```
-[2439. 最小化数组中的最大值](https://leetcode.cn/problems/minimize-maximum-of-array/)
+
+[LeetCode 2439. 最小化数组中的最大值](https://leetcode.cn/problems/minimize-maximum-of-array/)
 
 判定（vaild函数）：
 
