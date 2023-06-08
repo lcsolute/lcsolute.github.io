@@ -28,3 +28,12 @@ void show_pointer(void * x) {
     show_bytes((byte_pointer) &x, sizeof(void *));
 }
 ```
+
+测试代码
+```c
+int main() {
+    int x = 0x123456;
+    show_int(x);
+}
+```
+运行结果为：`123456` 或 `563421`
